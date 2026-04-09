@@ -40,7 +40,8 @@ CREATE TABLE expenses (
 INSERT INTO clinics VALUES
 ('cnc-0100001', 'XYZ clinic', 'lorem', 'ipsum', 'dolor'),
 ('cnc-0200002', 'ABC clinic', 'delta', 'beta', 'gamma'),
-('cnc-0300003', 'HealthPlus', 'city1', 'state1', 'country1');
+('cnc-0300003', 'HealthPlus', 'city1', 'state1', 'country1'),
+('cnc-0400004', 'CareWell', 'city2', 'state1', 'country1');
 
 INSERT INTO customer VALUES
 ('bk-09f3e-95hj', 'Jon Doe', '97XXXXXXXX'),
@@ -54,7 +55,8 @@ INSERT INTO clinic_sales VALUES
 ('ord-00100-00103', 'bk-09f3e-95hj', 'cnc-0200002', 12500, '2021-10-12 09:15:00', 'phone'),
 ('ord-00100-00104', 'uid-8390-ash2', 'cnc-0300003', 42000, '2021-10-14 16:45:00', 'online'),
 ('ord-00100-00105', 'uid-1209-zsn4', 'cnc-0100001', 9800, '2021-11-05 10:50:00', 'online'),
-('ord-00100-00106', 'bk-09f3e-95hj', 'cnc-0200002', 24000, '2021-11-15 13:30:00', 'walk-in');
+('ord-00100-00106', 'bk-09f3e-95hj', 'cnc-0200002', 24000, '2021-11-15 13:30:00', 'walk-in'),
+('ord-00100-00107', 'uid-8390-ash2', 'cnc-0400004', 15000, '2021-11-20 14:00:00', 'online');
 
 INSERT INTO expenses VALUES
 ('exp-0100-00100', 'cnc-0100001', 'first-aid supplies', 557, '2021-09-23 07:36:48'),
@@ -63,4 +65,5 @@ INSERT INTO expenses VALUES
 ('exp-0100-00103', 'cnc-0300003', 'salaries', 25000, '2021-10-10 08:30:00'),
 ('exp-0100-00104', 'cnc-0200002', 'medicines', 7200, '2021-11-05 15:00:00'),
 ('exp-0100-00105', 'cnc-0100001', 'marketing', 12400, '2021-11-10 12:00:00'),
-('exp-0100-00106', 'cnc-0300003', 'maintenance', 4500, '2021-11-18 10:10:00');
+('exp-0100-00106', 'cnc-0300003', 'maintenance', 4500, '2021-11-18 10:10:00'),
+('exp-0100-00107', 'cnc-0400004', 'supplies', 5000, '2021-11-21 09:00:00');
